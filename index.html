@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>常用直达亿凯音频Studio 网站导航</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+  }
+  /* 背景动画层：缓慢推近+平移（Ken Burns） */
+  .bg-layer { position: fixed; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+  .bg-layer img { position: absolute; inset: -14%; width: 128%; height: 128%; object-fit: cover; will-change: transform; animation: kenburns 14s ease-in-out infinite alternate; }
+  @keyframes kenburns {
+    from { transform: scale(1.02) translate(-1%, -1%); }
+    to { transform: scale(1.24) translate(-5%, 4%); }
+  }
+  /* 灯光呼吸光斑 */
+  .glow { position: fixed; border-radius: 50%; filter: blur(100px); pointer-events: none; z-index: 1; animation: breathe 5s ease-in-out infinite alternate; }
+  .g1 { width: 480px; height: 480px; background: radial-gradient(circle, rgba(255,154,77,.9), transparent 70%); left: 4%; top: 50%; }
+  .g2 { width: 420px; height: 420px; background: radial-gradient(circle, rgba(77,159,255,.9), transparent 70%); right: 5%; top: 46%; animation-delay: -3s; }
+  .g3 { width: 360px; height: 360px; background: radial-gradient(circle, rgba(255,77,109,.85), transparent 70%); left: 36%; bottom: 4%; animation-delay: -6s; }
+  @keyframes breathe {
+    from { opacity: .06; transform: scale(.88); }
+    to { opacity: .32; transform: scale(1.16); }
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 14, 20, .62);
+    z-index: 1;
+    pointer-events: none;
+  }
+  .wrap { position: relative; z-index: 2; width: min(100%, 1250px); margin: 0 auto; }
+  header { text-align: center; margin-bottom: 32px; }
+  h1 { font-size: 26px; font-weight: 700; letter-spacing: 1px; }
+  .tag {
+    display: inline-block;
+    font-size: 12px;
+    color: #58a6ff;
+    border: 1px solid #1f6feb55;
+    background: #1f6feb14;
+    border-radius: 999px;
+    padding: 2px 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .sub { margin-top: 8px; font-size: 18px; color: #ffb648; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 14px;
+    width: 100%;
+  }
+  .grid > .card:nth-child(8), .grid > .card:nth-child(15), .grid > .card:nth-child(22), .grid > .card:nth-child(29), .grid > .card:nth-child(36), .grid > .card:nth-child(43) { grid-column: 1; }
+  /* 前 4 个新卡片独占第一行，第 5 个（抖音直播伴侣）强制从第二行开始 */
+  
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 14px;
+    padding: 10px;
+    text-align: left;
+    transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  }
+  .card:hover, .card:focus-visible {
+    transform: translateY(-3px);
+    border-color: #58a6ff;
+    box-shadow: 0 6px 20px rgba(0,0,0,.35), 0 0 0 1px #58a6ff22;
+    outline: none;
+  }
+  .icon-box {
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .icon-box img { width: 34px; height: 34px; object-fit: contain; border-radius: 9px; }
+  .name { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .name .tip { display: block; font-size: 11px; font-weight: 400; color: #8b949e; white-space: nowrap; margin-top: 2px; }
+  .desc { margin-top: 6px; font-size: 12px; color: #8b949e; line-height: 1.5; }
+  .key {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #484f58;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 1px 7px;
+  }
+  footer { margin-top: 28px; text-align: center; font-size: 17px; color: #d9a06c; }
+  @media (max-width: 720px) {
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .icon-box { width: 42px; height: 42px; border-radius: 10px; }
+    .icon-box img { width: 32px; height: 32px; }
+  }
+</style>
+</head>
+<body>
+  <div class="bg-layer"><img src="icons/icon01.png" alt=""></div>
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+  <div class="glow g3"></div>
+<div class="wrap">
+  <header>
+    <h1>明轩音频官方枢纽 声卡精调｜机架搭建｜电脑直播设置 设备选购｜效果优化｜AI 唱歌调试 <span class="tag">v1.0</span></h1>
+    <div class="sub">调试联系+VX mingxuan198244   电话 13761285413 同微
+  </header>
+
+  <div class="grid">
+    <a class="card" href="https://dcngmv5ds3e4.feishu.cn/drive/folder/E4nYf4vkBlxrJmdXfoOcKj6Jnng?from=from_copylink"_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon09.png" alt="亿凯音频Studio图标"></div>
+      <div class="name">明轩音频</div>
+    </a>
+    <a class="card" href="https://c5pdkuo19j.feishu.cn/drive/folder/FsVGfr5M7lfCtLdTwsRcjVuSnEc" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon11.png" alt="声卡驱动列表图标"></div>
+      <div class="name">声卡驱动列表</div>
+    </a>
+    <a class="card" href="https://midiplus.com/cn/support.aspx?id=1" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon12.png" alt="MIDI驱动官网图标"></div>
+      <div class="name">MIDI驱动官网</div>
+    </a>
+    <a class="card" href="https://www.iconproaudio.com.cn/products/interfaces/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon13.png" alt="艾肯声卡官网图标"></div>
+      <div class="name">艾肯声卡官网</div>
+    </a>
+    <a class="card" href="https://www.iximega.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon14.png" alt="IXI声卡官网图标"></div>
+      <div class="name">IXI声卡官网</div>
+    </a>
+    <a class="card" href="https://rme-audio.de/downloads.html" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon15.png" alt="RME驱动官网图标"></div>
+      <div class="name">RME驱动官网</div>
+    </a>
+    <a class="card" href="https://cn.bing.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon16.png" alt="必应搜索图标"></div>
+      <div class="name">必应搜索</div>
+    </a>
+    <a class="card" href="https://metaso.cn/?s=sbyaigc&referrer_s=sbyaigc" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon17.png" alt="秘塔AI搜索图标"></div>
+      <div class="name">秘塔AI搜索</div>
+    </a>
+    <a class="card" href="https://test.ustc.edu.cn/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon18.png" alt="网络测速图标"></div>
+      <div class="name">网络测速</div>
+    </a>
+    <a class="card" href="https://www.aichunjing.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon19.png" alt="爱纯净图标"></div>
+      <div class="name">爱纯净</div>
+    </a>
+    <a class="card" href="https://wx.mail.qq.com/?cancel_login=true&amp;from=get_ticket_fail" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon20.png" alt="QQ邮箱图标"></div>
+      <div class="name">QQ邮箱</div>
+    </a>
+    <a class="card" href="https://explore.microsoft.com/zh-cn/edge/download?form=MA13FJ" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon21.png" alt="Microsoft Edge图标"></div>
+      <div class="name">Edge 浏览器</div>
+    </a>
+    <a class="card" href="https://www.i4.cn/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon22.png" alt="爱思助手图标"></div>
+      <div class="name">爱思助手</div>
+    </a>
+    <a class="card" href="https://streamingtool.douyin.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon23.png" alt="抖音直播伴侣图标"></div>
+      <div class="name">抖音直播伴侣</div>
+    </a>
+    <a class="card" href="https://www.douyin.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon24.png" alt="抖音图标"></div>
+      <div class="name">抖音电脑版</div>
+    </a>
+    <a class="card" href="https://www.feishu.cn/download" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon25.png" alt="飞书图标"></div>
+      <div class="name">飞书</div>
+    </a>
+    <a class="card" href="https://www.doubao.com/download/desktop" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon26.png" alt="豆包AI图标"></div>
+      <div class="name">豆包AI</div>
+    </a>
+    <a class="card" href="https://www.yy.com/download" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon27.png" alt="YY语音图标"></div>
+      <div class="name">YY语音</div>
+    </a>
+    <a class="card" href="https://v.yy.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon28.png" alt="YY开播美颜图标"></div>
+      <div class="name">YY开播美颜</div>
+    </a>
+    <a class="card" href="https://www.iqiyi.com/appstore.html" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon29.png" alt="爱奇艺播放器图标"></div>
+      <div class="name">爱奇艺播放器</div>
+    </a>
+    <a class="card" href="https://www.kugou.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon30.png" alt="酷狗音乐图标"></div>
+      <div class="name">酷狗音乐</div>
+    </a>
+    <a class="card" href="https://y.qq.com/download/index.html" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon31.png" alt="QQ音乐图标"></div>
+      <div class="name">QQ音乐</div>
+    </a>
+    <a class="card" href="https://kuwo.cn/down" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon32.png" alt="酷我音乐图标"></div>
+      <div class="name">酷我音乐</div>
+    </a>
+    <a class="card" href="https://music.163.com/#/download" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon33.png" alt="网易云音乐图标"></div>
+      <div class="name">网易云音乐</div>
+    </a>
+    <a class="card" href="https://music.douyin.com/qishui" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon34.png" alt="汽水音乐图标"></div>
+      <div class="name">汽水音乐</div>
+    </a>
+    <a class="card" href="https://kg.qq.com/index-pc.html" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon35.png" alt="全民K歌图标"></div>
+      <div class="name">全民K歌</div>
+    </a>
+    <a class="card" href="https://5sing.kugou.com/yikai/default.html" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon36.png" alt="5Sing音乐图标"></div>
+      <div class="name">5Sing音乐</div>
+    </a>
+    <a class="card" href="https://www.e2esoft.cn/?wpam_id=179" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon37.png" alt="iVCam摄像头图标"></div>
+      <div class="name">iVCam摄像头</div>
+    </a>
+    <a class="card" href="https://www.winrar.com.cn/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon38.png" alt="RAR压缩图标"></div>
+      <div class="name">RAR压缩</div>
+    </a>
+    <a class="card" href="https://www.pcgeshi.com" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon39.png" alt="格式工厂图标"></div>
+      <div class="name">格式工厂</div>
+    </a>
+    <a class="card" href="https://www.wps.cn/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon40.png" alt="WPS Office图标"></div>
+      <div class="name">WPS Office</div>
+    </a>
+    <a class="card" href="https://www.capcut.cn/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon41.png" alt="剪映AI图标"></div>
+      <div class="name">剪映AI</div>
+    </a>
+    <a class="card" href="https://pc.vivo.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon42.png" alt="vivo办公图标"></div>
+      <div class="name">vivo办公</div>
+    </a>
+    <a class="card" href="https://www.drvceo.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon43.png" alt="驱动总裁图标"></div>
+      <div class="name">驱动总裁</div>
+    </a>
+    <a class="card" href="https://www.123pan.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon44.png" alt="123云盘图标"></div>
+      <div class="name">123云盘</div>
+    </a>
+    <a class="card" href="https://pan.baidu.com/download#win" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon45.png" alt="百度网盘图标"></div>
+      <div class="name">百度网盘</div>
+    </a>
+    <a class="card" href="https://sunlogin.oray.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon46.png" alt="向日葵远程图标"></div>
+      <div class="name">向日葵远程</div>
+    </a>
+    <a class="card" href="https://www.todesk.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon47.png" alt="ToDesk图标"></div>
+      <div class="name">ToDesk</div>
+    </a>
+    <a class="card" href="https://www.huorong.cn/person" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon48.png" alt="火绒安全图标"></div>
+      <div class="name">火绒安全</div>
+    </a>
+    <a class="card" href="https://weixin.qq.com/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon49.png" alt="微信图标"></div>
+      <div class="name">微信</div>
+    </a>
+    <a class="card" href="https://im.qq.com/index/#/" target="_blank" rel="noopener">
+      <div class="icon-box"><img src="icons/icon50.png" alt="QQ聊天图标"></div>
+      <div class="name">QQ聊天</div>
+    </a>
+  </div>
+
+  <footer>©2026 明轩音频Studio ｜技术支持｜原创开发｜明轩音频网络工作室</footer>
+</div>
+
+<script>
+    // 简易防盗用：禁用右键菜单 / 文本选择 / 查看源码快捷键（挡普通用户）
+    document.addEventListener('contextmenu', function (e) { e.preventDefault(); });
+    document.addEventListener('selectstart', function (e) { e.preventDefault(); });
+    document.addEventListener('copy', function (e) { e.preventDefault(); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'F12' || (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S'))) {
+        e.preventDefault();
+      }
+    });
+  </script>
+</body>
+</html>
